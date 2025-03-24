@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifólio - Lucas Gabriel Da Silva Reis  </title>
+    <link rel="stylesheet" href="style/style.css">
+    
+</head>
+    <body>
+        <header class="cabecalho">
+            <nav class="cabecalho__menu">
+                <a class="cabecalho__menu__link" href="index.html">Home</a>
+                <a class="cabecalho__menu__link" href="about.html">Sobre mim</a>
+            </nav>
+        </header>
+        <main class="apresentacao">
+            <section class="apresentacao__conteudo">
+                <h1 class="apresentacao__conteudo__titulo">
+                    melhore seus videos com a minhas ediçao <strong class="titulo-destaque"> com uma ediçao de qualidade! seus videos podem pegar mas vizu q o normal.</strong> 
+                </h1>
+                <p class="apresentacao__conteudo__texto">
+                    Olá! Sou Bizinkz, um apaixonado por tecnologia e desenvolvimento de software. Com experiência em análise de dados 
+                    e edito videos tambem uso o aligt, adobe efects, 3d affects pfrt, busco desafios que impulsionem meu crescimento profissional. Vamos inovar juntos? 🚀
+                </p>
+                <div class="apresentacao__links">
+                    <a class="apresentacao__links__navegacao" target="_blank" href="https://www.instagram.com/llucaszsx/">
+                        Instagram
+                    </a>
+                    <a class="apresentacao__links__navegacao" target="_blank" href="https://github.com/kira666-beep?tab=overview&from=2025-03-01&to=2025-03-24/">
+                        Github
+                    </a>
+                </div>    
+            </section>
+          <img src="perfil.jpg" alt="perfil">
+        </main>
+        <footer  class="rodape">
+            <p>Desenvolvido por <strong> Gabriel Firmino </strong></p>
+        </footer>
+    </body>
+</html>  
+
+<style>@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+
+    :root {
+        --cor-primaria: #000000;
+        --cor-secundaria: #F6F6F6;
+        --cor-terciaria: #2EE544;
+        --cor-quaternaria: #676B82;
+        --cor-hover: #272727;
+    
+        --fonte-primaria: 'Krona One', sans-serif;
+        --fonte-secundaria: 'Montserrat', sans-serif;
+    }
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    
+    body{
+        box-sizing: border-box;
+        background-color: var(--cor-primaria);
+        color: var(--cor-secundaria);
+    }
+    
+    .cabecalho{
+        padding: 2% 0% 0% 15%;
+    }
+    .cabecalho__menu{
+        display: flex;
+        gap: 80px;
+    }
+    .cabecalho__menu__link{
+        font-family: var(--fonte-secundaria);
+        font-size: 1.5rem;
+        font-weight: 600;
+        color: var(--cor-terciaria);
+        text-decoration: none;
+    }
+    .apresentacao{
+        padding: 5% 15%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 42px;
+    }
+    .apresentacao__conteudo{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .apresentacao__conteudo__titulo{
+        font-size: 2.25rem;
+        font-family: var(--fonte-primaria);
+    }
+    .titulo-destaque{
+        color: var(--cor-quaternaria);
+    }
+    .apresentacao__conteudo__texto{
+        font-size: 1.2rem;
+        font-family: var(--fonte-secundaria);
+    }
+    
+    .apresentacao__links{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        gap: 32px;
+    }
+    .apresentacao__links__subtitulo{
+        font-family: var(--fonte-primaria);
+        font-weight: 400;
+        font-size: 1.5rem;
+    }
+    .apresentacao__links__navegacao{
+        display: flex;
+        justify-content: center;
+        gap: 16px;
+        border: 2px solid var(--cor-terciaria);
+        width: 100%;
+        text-align: center;
+        border-radius: 8px;
+        font-size: 1.5rem;
+        font-weight: 600;
+        padding: 16.5px 0;
+        text-decoration: none;
+        color: var(--cor-secundaria);
+        font-family: var(--fonte-secundaria);
+    }
+    .apresentacao__links__navegacao:hover{
+        background-color: var(--cor-hover);
+    }
+    .apresentacao__imagem{
+        width: 40%;
+    }
+    .rodape{
+        color: var(--cor-secundaria);
+        background-color: var(--cor-quaternaria);
+        padding: 24px;
+        text-align: center;
+        font-family: var(--fonte-secundaria);
+        font-size: 1.5rem;
+        font-weight: 400;
+    }
+    
+    @media (max-width: 1200px) {
+        .cabecalho{
+             padding: 10%;  
+        }
+        .cabecalho__menu{
+            justify-content: center;
+        }
+        .apresentacao{
+            flex-direction: column-reverse;
+            padding: 5%;
+        }
+        .apresentacao__conteudo{
+            width: auto;
+        }
+    }</style>
